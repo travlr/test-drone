@@ -1,6 +1,7 @@
 package math
 
 import "testing"
+import "fmt"
 
 type testpair struct {
 	values  []float64
@@ -24,4 +25,5 @@ func TestAverage(t *testing.T) {
 			)
 		}
 	}
+	fmt.Println("ok")
 }
